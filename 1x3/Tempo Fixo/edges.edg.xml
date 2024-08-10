@@ -1,0 +1,24 @@
+<edges>
+    <edge from="n1" id="n1_t1" to="t1" numLanes="2"/>
+    <edge from="t1" id="t1_n1" to="n1" numLanes="2"/>
+    <edge from="w1" id="w1_t1" to="t1" numLanes="2"/>
+    <edge from="t1" id="t1_w1" to="w1" numLanes="2"/>
+    <edge from="t1" id="t1_s1" to="s1" numLanes="2"/>
+    <edge from="s1" id="s1_t1" to="t1" numLanes="2"/>
+    <edge from="t1" id="t1_t2" to="t2" numLanes="2"/>
+    <edge from="t2" id="t2_t1" to="t1" numLanes="2"/>
+
+    <edge from="n2" id="n2_t2" to="t2" numLanes="2"/>
+    <edge from="t2" id="t2_n2" to="n2" numLanes="2"/>
+    <edge from="t2" id="t2_s2" to="s2" numLanes="2"/>
+    <edge from="s2" id="s2_t2" to="t2" numLanes="2"/>
+    <edge from="t2" id="t2_t3" to="t3" numLanes="2"/>
+    <edge from="t3" id="t3_t2" to="t2" numLanes="2"/>
+
+    <edge from="n3" id="n3_t3" to="t3" numLanes="2"/>
+    <edge from="t3" id="t3_n3" to="n3" numLanes="2"/>
+    <edge from="t3" id="t3_s3" to="s3" numLanes="2"/>
+    <edge from="s3" id="s3_t3" to="t3" numLanes="2"/>
+    <edge from="t3" id="t3_e1" to="e1" numLanes="2"/>
+    <edge from="e1" id="e1_t3" to="t3" numLanes="2"/>
+</edges>

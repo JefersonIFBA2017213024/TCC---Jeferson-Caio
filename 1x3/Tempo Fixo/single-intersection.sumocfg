@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-06-25 20:55:22 by Eclipse SUMO GUI Version 1.20.0
+-->
+
+<configuration>
+    <input>
+       <net-file value="network.net.xml"/>
+        <route-files value="routes.rou.xml"/>
+	<additional-files value="additional.add.xml"/>
+    </input>
+	<time>
+        <begin value="0"/>
+        <end value="144000"/>
+    </time>
+    <time-to-teleport value="-1"/> <!-- If the value is not positive, teleporting due to grid-lock is disabled.-->
+</configuration>
+

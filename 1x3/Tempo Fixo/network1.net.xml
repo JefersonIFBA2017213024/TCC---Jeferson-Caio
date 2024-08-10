@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-07-27 23:32:32 by Eclipse SUMO netconvert Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="nodes.nod.xml"/>
+        <edge-files value="edges.edg.xml"/>
+    </input>
+
+    <output>
+        <output-file value="network1.net.xml"/>
+    </output>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="150.00,150.00" convBoundary="0.00,0.00,600.00,300.00" origBoundary="-150.00,-150.00,450.00,150.00" projParameter="!"/>
+
+    <edge id=":e1_0" function="internal">
+        <lane id=":e1_0_0" index="0" speed="3.65" length="4.67" shape="600.00,148.40 601.20,149.20 601.60,150.00 601.20,150.80 600.00,151.60"/>
+    </edge>
+    <edge id=":n1_0" function="internal">
+        <lane id=":n1_0_0" index="0" speed="3.65" length="4.67" shape="151.60,300.00 150.80,301.20 150.00,301.60 149.20,301.20 148.40,300.00"/>
+    </edge>
+    <edge id=":n2_0" function="internal">
+        <lane id=":n2_0_0" index="0" speed="3.65" length="4.67" shape="301.60,300.00 300.80,301.20 300.00,301.60 299.20,301.20 298.40,300.00"/>
+    </edge>
+    <edge id=":n3_0" function="internal">
+        <lane id=":n3_0_0" index="0" speed="3.65" length="4.67" shape="451.60,300.00 450.80,301.20 450.00,301.60 449.20,301.20 448.40,300.00"/>
+    </edge>
+    <edge id=":s1_0" function="internal">
+        <lane id=":s1_0_0" index="0" speed="3.65" length="4.67" shape="148.40,0.00 149.20,-1.20 150.00,-1.60 150.80,-1.20 151.60,0.00"/>
+    </edge>
+    <edge id=":s2_0" function="internal">
+        <lane id=":s2_0_0" index="0" speed="3.65" length="4.67" shape="298.40,0.00 299.20,-1.20 300.00,-1.60 300.80,-1.20 301.60,0.00"/>
+    </edge>
+    <edge id=":s3_0" function="internal">
+        <lane id=":s3_0_0" index="0" speed="3.65" length="4.67" shape="448.40,0.00 449.20,-1.20 450.00,-1.60 450.80,-1.20 451.60,0.00"/>
+    </edge>
+    <edge id=":t1_0" function="internal">
+        <lane id=":t1_0_0" index="0" speed="6.51" length="9.03" shape="145.20,160.40 144.85,157.95 143.80,156.20 142.05,155.15 139.60,154.80"/>
+    </edge>
+    <edge id=":t1_1" function="internal">
+        <lane id=":t1_1_0" index="0" speed="13.89" length="20.80" shape="145.20,160.40 145.20,139.60"/>
+        <lane id=":t1_1_1" index="1" speed="13.89" length="20.80" shape="148.40,160.40 148.40,139.60"/>
+    </edge>
+    <edge id=":t1_3" function="internal">
+        <lane id=":t1_3_0" index="0" speed="9.26" length="5.01" shape="148.40,160.40 149.11,155.44"/>
+    </edge>
+    <edge id=":t1_4" function="internal">
+        <lane id=":t1_4_0" index="0" speed="3.65" length="1.44" shape="148.40,160.40 149.20,159.20"/>
+    </edge>
+    <edge id=":t1_20" function="internal">
+        <lane id=":t1_20_0" index="0" speed="9.26" length="14.34" shape="149.11,155.44 149.15,155.15 151.40,151.40 155.15,149.15 160.40,148.40"/>
+    </edge>
+    <edge id=":t1_21" function="internal">
+        <lane id=":t1_21_0" index="0" speed="3.65" length="3.23" shape="149.20,159.20 150.00,158.80 150.80,159.20 151.60,160.40"/>
+    </edge>
+    <edge id=":t1_5" function="internal">
+        <lane id=":t1_5_0" index="0" speed="6.51" length="9.03" shape="160.40,154.80 157.95,155.15 156.20,156.20 155.15,157.95 154.80,160.40"/>
+    </edge>
+    <edge id=":t1_6" function="internal">
+        <lane id=":t1_6_0" index="0" speed="13.89" length="20.80" shape="160.40,154.80 139.60,154.80"/>
+        <lane id=":t1_6_1" index="1" speed="13.89" length="20.80" shape="160.40,151.60 139.60,151.60"/>
+    </edge>
+    <edge id=":t1_8" function="internal">
+        <lane id=":t1_8_0" index="0" speed="9.26" length="5.01" shape="160.40,151.60 155.44,150.89"/>
+    </edge>
+    <edge id=":t1_9" function="internal">
+        <lane id=":t1_9_0" index="0" speed="3.65" length="1.44" shape="160.40,151.60 159.20,150.80"/>
+    </edge>
+    <edge id=":t1_22" function="internal">
+        <lane id=":t1_22_0" index="0" speed="9.26" length="14.34" shape="155.44,150.89 155.15,150.85 151.40,148.60 149.15,144.85 148.40,139.60"/>
+    </edge>
+    <edge id=":t1_23" function="internal">
+        <lane id=":t1_23_0" index="0" speed="3.65" length="3.23" shape="159.20,150.80 158.80,150.00 159.20,149.20 160.40,148.40"/>
+    </edge>
+    <edge id=":t1_10" function="internal">
+        <lane id=":t1_10_0" index="0" speed="6.51" length="9.03" shape="154.80,139.60 155.15,142.05 156.20,143.80 157.95,144.85 160.40,145.20"/>
+    </edge>
+    <edge id=":t1_11" function="internal">
+        <lane id=":t1_11_0" index="0" speed="13.89" length="20.80" shape="154.80,139.60 154.80,160.40"/>
+        <lane id=":t1_11_1" index="1" speed="13.89" length="20.80" shape="151.60,139.60 151.60,160.40"/>
+    </edge>
+    <edge id=":t1_13" function="internal">
+        <lane id=":t1_13_0" index="0" speed="9.26" length="5.01" shape="151.60,139.60 150.89,144.56"/>
+    </edge>
+    <edge id=":t1_14" function="internal">
+        <lane id=":t1_14_0" index="0" speed="3.65" length="1.44" shape="151.60,139.60 150.80,140.80"/>
+    </edge>
+    <edge id=":t1_24" function="internal">
+        <lane id=":t1_24_0" index="0" speed="9.26" length="14.34" shape="150.89,144.56 150.85,144.85 148.60,148.60 144.85,150.85 139.60,151.60"/>
+    </edge>
+    <edge id=":t1_25" function="internal">
+        <lane id=":t1_25_0" index="0" speed="3.65" length="3.23" shape="150.80,140.80 150.00,141.20 149.20,140.80 148.40,139.60"/>
+    </edge>
+    <edge id=":t1_15" function="internal">
+        <lane id=":t1_15_0" index="0" speed="6.51" length="9.03" shape="139.60,145.20 142.05,144.85 143.80,143.80 144.85,142.05 145.20,139.60"/>
+    </edge>
+    <edge id=":t1_16" function="internal">
+        <lane id=":t1_16_0" index="0" speed="13.89" length="20.80" shape="139.60,145.20 160.40,145.20"/>
+        <lane id=":t1_16_1" index="1" speed="13.89" length="20.80" shape="139.60,148.40 160.40,148.40"/>
+    </edge>
+    <edge id=":t1_18" function="internal">
+        <lane id=":t1_18_0" index="0" speed="9.26" length="5.01" shape="139.60,148.40 144.56,149.11"/>
+    </edge>
+    <edge id=":t1_19" function="internal">
+        <lane id=":t1_19_0" index="0" speed="3.65" length="1.44" shape="139.60,148.40 140.80,149.20"/>
+    </edge>
+    <edge id=":t1_26" function="internal">
+        <lane id=":t1_26_0" index="0" speed="9.26" length="14.34" shape="144.56,149.11 144.85,149.15 148.60,151.40 150.85,155.15 151.60,160.40"/>
+    </edge>
+    <edge id=":t1_27" function="internal">
+        <lane id=":t1_27_0" index="0" speed="3.65" length="3.23" shape="140.80,149.20 141.20,150.00 140.80,150.80 139.60,151.60"/>
+    </edge>
+    <edge id=":t2_0" function="internal">
+        <lane id=":t2_0_0" index="0" speed="6.51" length="9.03" shape="295.20,160.40 294.85,157.95 293.80,156.20 292.05,155.15 289.60,154.80"/>
+    </edge>
+    <edge id=":t2_1" function="internal">
+        <lane id=":t2_1_0" index="0" speed="13.89" length="20.80" shape="295.20,160.40 295.20,139.60"/>
+        <lane id=":t2_1_1" index="1" speed="13.89" length="20.80" shape="298.40,160.40 298.40,139.60"/>
+    </edge>
+    <edge id=":t2_3" function="internal">
+        <lane id=":t2_3_0" index="0" speed="9.26" length="5.01" shape="298.40,160.40 299.11,155.44"/>
+    </edge>
+    <edge id=":t2_4" function="internal">
+        <lane id=":t2_4_0" index="0" speed="3.65" length="1.44" shape="298.40,160.40 299.20,159.20"/>
+    </edge>
+    <edge id=":t2_20" function="internal">
+        <lane id=":t2_20_0" index="0" speed="9.26" length="14.34" shape="299.11,155.44 299.15,155.15 301.40,151.40 305.15,149.15 310.40,148.40"/>
+    </edge>
+    <edge id=":t2_21" function="internal">
+        <lane id=":t2_21_0" index="0" speed="3.65" length="3.23" shape="299.20,159.20 300.00,158.80 300.80,159.20 301.60,160.40"/>
+    </edge>
+    <edge id=":t2_5" function="internal">
+        <lane id=":t2_5_0" index="0" speed="6.51" length="9.03" shape="310.40,154.80 307.95,155.15 306.20,156.20 305.15,157.95 304.80,160.40"/>
+    </edge>
+    <edge id=":t2_6" function="internal">
+        <lane id=":t2_6_0" index="0" speed="13.89" length="20.80" shape="310.40,154.80 289.60,154.80"/>
+        <lane id=":t2_6_1" index="1" speed="13.89" length="20.80" shape="310.40,151.60 289.60,151.60"/>
+    </edge>
+    <edge id=":t2_8" function="internal">
+        <lane id=":t2_8_0" index="0" speed="9.26" length="5.01" shape="310.40,151.60 305.44,150.89"/>
+    </edge>
+    <edge id=":t2_9" function="internal">
+        <lane id=":t2_9_0" index="0" speed="3.65" length="1.44" shape="310.40,151.60 309.20,150.80"/>
+    </edge>
+    <edge id=":t2_22" function="internal">
+        <lane id=":t2_22_0" index="0" speed="9.26" length="14.34" shape="305.44,150.89 305.15,150.85 301.40,148.60 299.15,144.85 298.40,139.60"/>
+    </edge>
+    <edge id=":t2_23" function="internal">
+        <lane id=":t2_23_0" index="0" speed="3.65" length="3.23" shape="309.20,150.80 308.80,150.00 309.20,149.20 310.40,148.40"/>
+    </edge>
+    <edge id=":t2_10" function="internal">
+        <lane id=":t2_10_0" index="0" speed="6.51" length="9.03" shape="304.80,139.60 305.15,142.05 306.20,143.80 307.95,144.85 310.40,145.20"/>
+    </edge>
+    <edge id=":t2_11" function="internal">
+        <lane id=":t2_11_0" index="0" speed="13.89" length="20.80" shape="304.80,139.60 304.80,160.40"/>
+        <lane id=":t2_11_1" index="1" speed="13.89" length="20.80" shape="301.60,139.60 301.60,160.40"/>
+    </edge>
+    <edge id=":t2_13" function="internal">
+        <lane id=":t2_13_0" index="0" speed="9.26" length="5.01" shape="301.60,139.60 300.89,144.56"/>
+    </edge>
+    <edge id=":t2_14" function="internal">
+        <lane id=":t2_14_0" index="0" speed="3.65" length="1.44" shape="301.60,139.60 300.80,140.80"/>
+    </edge>
+    <edge id=":t2_24" function="internal">
+        <lane id=":t2_24_0" index="0" speed="9.26" length="14.34" shape="300.89,144.56 300.85,144.85 298.60,148.60 294.85,150.85 289.60,151.60"/>
+    </edge>
+    <edge id=":t2_25" function="internal">
+        <lane id=":t2_25_0" index="0" speed="3.65" length="3.23" shape="300.80,140.80 300.00,141.20 299.20,140.80 298.40,139.60"/>
+    </edge>
+    <edge id=":t2_15" function="internal">
+        <lane id=":t2_15_0" index="0" speed="6.51" length="9.03" shape="289.60,145.20 292.05,144.85 293.80,143.80 294.85,142.05 295.20,139.60"/>
+    </edge>
+    <edge id=":t2_16" function="internal">
+        <lane id=":t2_16_0" index="0" speed="13.89" length="20.80" shape="289.60,145.20 310.40,145.20"/>
+        <lane id=":t2_16_1" index="1" speed="13.89" length="20.80" shape="289.60,148.40 310.40,148.40"/>
+    </edge>
+    <edge id=":t2_18" function="internal">
+        <lane id=":t2_18_0" index="0" speed="9.26" length="5.01" shape="289.60,148.40 294.56,149.11"/>
+    </edge>
+    <edge id=":t2_19" function="internal">
+        <lane id=":t2_19_0" index="0" speed="3.65" length="1.44" shape="289.60,148.40 290.80,149.20"/>
+    </edge>
+    <edge id=":t2_26" function="internal">
+        <lane id=":t2_26_0" index="0" speed="9.26" length="14.34" shape="294.56,149.11 294.85,149.15 298.60,151.40 300.85,155.15 301.60,160.40"/>
+    </edge>
+    <edge id=":t2_27" function="internal">
+        <lane id=":t2_27_0" index="0" speed="3.65" length="3.23" shape="290.80,149.20 291.20,150.00 290.80,150.80 289.60,151.60"/>
+    </edge>
+    <edge id=":t3_0" function="internal">
+        <lane id=":t3_0_0" index="0" speed="6.51" length="9.03" shape="445.20,160.40 444.85,157.95 443.80,156.20 442.05,155.15 439.60,154.80"/>
+    </edge>
+    <edge id=":t3_1" function="internal">
+        <lane id=":t3_1_0" index="0" speed="13.89" length="20.80" shape="445.20,160.40 445.20,139.60"/>
+        <lane id=":t3_1_1" index="1" speed="13.89" length="20.80" shape="448.40,160.40 448.40,139.60"/>
+    </edge>
+    <edge id=":t3_3" function="internal">
+        <lane id=":t3_3_0" index="0" speed="9.26" length="5.01" shape="448.40,160.40 449.11,155.44"/>
+    </edge>
+    <edge id=":t3_4" function="internal">
+        <lane id=":t3_4_0" index="0" speed="3.65" length="1.44" shape="448.40,160.40 449.20,159.20"/>
+    </edge>
+    <edge id=":t3_20" function="internal">
+        <lane id=":t3_20_0" index="0" speed="9.26" length="14.34" shape="449.11,155.44 449.15,155.15 451.40,151.40 455.15,149.15 460.40,148.40"/>
+    </edge>
+    <edge id=":t3_21" function="internal">
+        <lane id=":t3_21_0" index="0" speed="3.65" length="3.23" shape="449.20,159.20 450.00,158.80 450.80,159.20 451.60,160.40"/>
+    </edge>
+    <edge id=":t3_5" function="internal">
+        <lane id=":t3_5_0" index="0" speed="6.51" length="9.03" shape="460.40,154.80 457.95,155.15 456.20,156.20 455.15,157.95 454.80,160.40"/>
+    </edge>
+    <edge id=":t3_6" function="internal">
+        <lane id=":t3_6_0" index="0" speed="13.89" length="20.80" shape="460.40,154.80 439.60,154.80"/>
+        <lane id=":t3_6_1" index="1" speed="13.89" length="20.80" shape="460.40,151.60 439.60,151.60"/>
+    </edge>
+    <edge id=":t3_8" function="internal">
+        <lane id=":t3_8_0" index="0" speed="9.26" length="5.01" shape="460.40,151.60 455.44,150.89"/>
+    </edge>
+    <edge id=":t3_9" function="internal">
+        <lane id=":t3_9_0" index="0" speed="3.65" length="1.44" shape="460.40,151.60 459.20,150.80"/>
+    </edge>
+    <edge id=":t3_22" function="internal">
+        <lane id=":t3_22_0" index="0" speed="9.26" length="14.34" shape="455.44,150.89 455.15,150.85 451.40,148.60 449.15,144.85 448.40,139.60"/>
+    </edge>
+    <edge id=":t3_23" function="internal">
+        <lane id=":t3_23_0" index="0" speed="3.65" length="3.23" shape="459.20,150.80 458.80,150.00 459.20,149.20 460.40,148.40"/>
+    </edge>
+    <edge id=":t3_10" function="internal">
+        <lane id=":t3_10_0" index="0" speed="6.51" length="9.03" shape="454.80,139.60 455.15,142.05 456.20,143.80 457.95,144.85 460.40,145.20"/>
+    </edge>
+    <edge id=":t3_11" function="internal">
+        <lane id=":t3_11_0" index="0" speed="13.89" length="20.80" shape="454.80,139.60 454.80,160.40"/>
+        <lane id=":t3_11_1" index="1" speed="13.89" length="20.80" shape="451.60,139.60 451.60,160.40"/>
+    </edge>
+    <edge id=":t3_13" function="internal">
+        <lane id=":t3_13_0" index="0" speed="9.26" length="5.01" shape="451.60,139.60 450.89,144.56"/>
+    </edge>
+    <edge id=":t3_14" function="internal">
+        <lane id=":t3_14_0" index="0" speed="3.65" length="1.44" shape="451.60,139.60 450.80,140.80"/>
+    </edge>
+    <edge id=":t3_24" function="internal">
+        <lane id=":t3_24_0" index="0" speed="9.26" length="14.34" shape="450.89,144.56 450.85,144.85 448.60,148.60 444.85,150.85 439.60,151.60"/>
+    </edge>
+    <edge id=":t3_25" function="internal">
+        <lane id=":t3_25_0" index="0" speed="3.65" length="3.23" shape="450.80,140.80 450.00,141.20 449.20,140.80 448.40,139.60"/>
+    </edge>
+    <edge id=":t3_15" function="internal">
+        <lane id=":t3_15_0" index="0" speed="6.51" length="9.03" shape="439.60,145.20 442.05,144.85 443.80,143.80 444.85,142.05 445.20,139.60"/>
+    </edge>
+    <edge id=":t3_16" function="internal">
+        <lane id=":t3_16_0" index="0" speed="13.89" length="20.80" shape="439.60,145.20 460.40,145.20"/>
+        <lane id=":t3_16_1" index="1" speed="13.89" length="20.80" shape="439.60,148.40 460.40,148.40"/>
+    </edge>
+    <edge id=":t3_18" function="internal">
+        <lane id=":t3_18_0" index="0" speed="9.26" length="5.01" shape="439.60,148.40 444.56,149.11"/>
+    </edge>
+    <edge id=":t3_19" function="internal">
+        <lane id=":t3_19_0" index="0" speed="3.65" length="1.44" shape="439.60,148.40 440.80,149.20"/>
+    </edge>
+    <edge id=":t3_26" function="internal">
+        <lane id=":t3_26_0" index="0" speed="9.26" length="14.34" shape="444.56,149.11 444.85,149.15 448.60,151.40 450.85,155.15 451.60,160.40"/>
+    </edge>
+    <edge id=":t3_27" function="internal">
+        <lane id=":t3_27_0" index="0" speed="3.65" length="3.23" shape="440.80,149.20 441.20,150.00 440.80,150.80 439.60,151.60"/>
+    </edge>
+    <edge id=":w1_0" function="internal">
+        <lane id=":w1_0_0" index="0" speed="3.65" length="4.67" shape="0.00,151.60 -1.20,150.80 -1.60,150.00 -1.20,149.20 0.00,148.40"/>
+    </edge>
+
+    <edge id="e1_t3" from="e1" to="t3" priority="-1">
+        <lane id="e1_t3_0" index="0" speed="13.89" length="139.60" shape="600.00,154.80 460.40,154.80"/>
+        <lane id="e1_t3_1" index="1" speed="13.89" length="139.60" shape="600.00,151.60 460.40,151.60"/>
+    </edge>
+    <edge id="n1_t1" from="n1" to="t1" priority="-1">
+        <lane id="n1_t1_0" index="0" speed="13.89" length="139.60" shape="145.20,300.00 145.20,160.40"/>
+        <lane id="n1_t1_1" index="1" speed="13.89" length="139.60" shape="148.40,300.00 148.40,160.40"/>
+    </edge>
+    <edge id="n2_t2" from="n2" to="t2" priority="-1">
+        <lane id="n2_t2_0" index="0" speed="13.89" length="139.60" shape="295.20,300.00 295.20,160.40"/>
+        <lane id="n2_t2_1" index="1" speed="13.89" length="139.60" shape="298.40,300.00 298.40,160.40"/>
+    </edge>
+    <edge id="n3_t3" from="n3" to="t3" priority="-1">
+        <lane id="n3_t3_0" index="0" speed="13.89" length="139.60" shape="445.20,300.00 445.20,160.40"/>
+        <lane id="n3_t3_1" index="1" speed="13.89" length="139.60" shape="448.40,300.00 448.40,160.40"/>
+    </edge>
+    <edge id="s1_t1" from="s1" to="t1" priority="-1">
+        <lane id="s1_t1_0" index="0" speed="13.89" length="139.60" shape="154.80,0.00 154.80,139.60"/>
+        <lane id="s1_t1_1" index="1" speed="13.89" length="139.60" shape="151.60,0.00 151.60,139.60"/>
+    </edge>
+    <edge id="s2_t2" from="s2" to="t2" priority="-1">
+        <lane id="s2_t2_0" index="0" speed="13.89" length="139.60" shape="304.80,0.00 304.80,139.60"/>
+        <lane id="s2_t2_1" index="1" speed="13.89" length="139.60" shape="301.60,0.00 301.60,139.60"/>
+    </edge>
+    <edge id="s3_t3" from="s3" to="t3" priority="-1">
+        <lane id="s3_t3_0" index="0" speed="13.89" length="139.60" shape="454.80,0.00 454.80,139.60"/>
+        <lane id="s3_t3_1" index="1" speed="13.89" length="139.60" shape="451.60,0.00 451.60,139.60"/>
+    </edge>
+    <edge id="t1_n1" from="t1" to="n1" priority="-1">
+        <lane id="t1_n1_0" index="0" speed="13.89" length="139.60" shape="154.80,160.40 154.80,300.00"/>
+        <lane id="t1_n1_1" index="1" speed="13.89" length="139.60" shape="151.60,160.40 151.60,300.00"/>
+    </edge>
+    <edge id="t1_s1" from="t1" to="s1" priority="-1">
+        <lane id="t1_s1_0" index="0" speed="13.89" length="139.60" shape="145.20,139.60 145.20,0.00"/>
+        <lane id="t1_s1_1" index="1" speed="13.89" length="139.60" shape="148.40,139.60 148.40,0.00"/>
+    </edge>
+    <edge id="t1_t2" from="t1" to="t2" priority="-1">
+        <lane id="t1_t2_0" index="0" speed="13.89" length="129.20" shape="160.40,145.20 289.60,145.20"/>
+        <lane id="t1_t2_1" index="1" speed="13.89" length="129.20" shape="160.40,148.40 289.60,148.40"/>
+    </edge>
+    <edge id="t1_w1" from="t1" to="w1" priority="-1">
+        <lane id="t1_w1_0" index="0" speed="13.89" length="139.60" shape="139.60,154.80 0.00,154.80"/>
+        <lane id="t1_w1_1" index="1" speed="13.89" length="139.60" shape="139.60,151.60 0.00,151.60"/>
+    </edge>
+    <edge id="t2_n2" from="t2" to="n2" priority="-1">
+        <lane id="t2_n2_0" index="0" speed="13.89" length="139.60" shape="304.80,160.40 304.80,300.00"/>
+        <lane id="t2_n2_1" index="1" speed="13.89" length="139.60" shape="301.60,160.40 301.60,300.00"/>
+    </edge>
+    <edge id="t2_s2" from="t2" to="s2" priority="-1">
+        <lane id="t2_s2_0" index="0" speed="13.89" length="139.60" shape="295.20,139.60 295.20,0.00"/>
+        <lane id="t2_s2_1" index="1" speed="13.89" length="139.60" shape="298.40,139.60 298.40,0.00"/>
+    </edge>
+    <edge id="t2_t1" from="t2" to="t1" priority="-1">
+        <lane id="t2_t1_0" index="0" speed="13.89" length="129.20" shape="289.60,154.80 160.40,154.80"/>
+        <lane id="t2_t1_1" index="1" speed="13.89" length="129.20" shape="289.60,151.60 160.40,151.60"/>
+    </edge>
+    <edge id="t2_t3" from="t2" to="t3" priority="-1">
+        <lane id="t2_t3_0" index="0" speed="13.89" length="129.20" shape="310.40,145.20 439.60,145.20"/>
+        <lane id="t2_t3_1" index="1" speed="13.89" length="129.20" shape="310.40,148.40 439.60,148.40"/>
+    </edge>
+    <edge id="t3_e1" from="t3" to="e1" priority="-1">
+        <lane id="t3_e1_0" index="0" speed="13.89" length="139.60" shape="460.40,145.20 600.00,145.20"/>
+        <lane id="t3_e1_1" index="1" speed="13.89" length="139.60" shape="460.40,148.40 600.00,148.40"/>
+    </edge>
+    <edge id="t3_n3" from="t3" to="n3" priority="-1">
+        <lane id="t3_n3_0" index="0" speed="13.89" length="139.60" shape="454.80,160.40 454.80,300.00"/>
+        <lane id="t3_n3_1" index="1" speed="13.89" length="139.60" shape="451.60,160.40 451.60,300.00"/>
+    </edge>
+    <edge id="t3_s3" from="t3" to="s3" priority="-1">
+        <lane id="t3_s3_0" index="0" speed="13.89" length="139.60" shape="445.20,139.60 445.20,0.00"/>
+        <lane id="t3_s3_1" index="1" speed="13.89" length="139.60" shape="448.40,139.60 448.40,0.00"/>
+    </edge>
+    <edge id="t3_t2" from="t3" to="t2" priority="-1">
+        <lane id="t3_t2_0" index="0" speed="13.89" length="129.20" shape="439.60,154.80 310.40,154.80"/>
+        <lane id="t3_t2_1" index="1" speed="13.89" length="129.20" shape="439.60,151.60 310.40,151.60"/>
+    </edge>
+    <edge id="w1_t1" from="w1" to="t1" priority="-1">
+        <lane id="w1_t1_0" index="0" speed="13.89" length="139.60" shape="0.00,145.20 139.60,145.20"/>
+        <lane id="w1_t1_1" index="1" speed="13.89" length="139.60" shape="0.00,148.40 139.60,148.40"/>
+    </edge>
+
+    <tlLogic id="t1" type="static" programID="0" offset="0">
+        <phase duration="42" state="GGGggrrrrrGGGggrrrrr"/>
+        <phase duration="3"  state="yyyyyrrrrryyyyyrrrrr"/>
+        <phase duration="42" state="rrrrrGGGggrrrrrGGGgg"/>
+        <phase duration="3"  state="rrrrryyyyyrrrrryyyyy"/>
+    </tlLogic>
+    <tlLogic id="t2" type="static" programID="0" offset="0">
+        <phase duration="42" state="GGGggrrrrrGGGggrrrrr"/>
+        <phase duration="3"  state="yyyyyrrrrryyyyyrrrrr"/>
+        <phase duration="42" state="rrrrrGGGggrrrrrGGGgg"/>
+        <phase duration="3"  state="rrrrryyyyyrrrrryyyyy"/>
+    </tlLogic>
+    <tlLogic id="t3" type="static" programID="0" offset="0">
+        <phase duration="42" state="GGGggrrrrrGGGggrrrrr"/>
+        <phase duration="3"  state="yyyyyrrrrryyyyyrrrrr"/>
+        <phase duration="42" state="rrrrrGGGggrrrrrGGGgg"/>
+        <phase duration="3"  state="rrrrryyyyyrrrrryyyyy"/>
+    </tlLogic>
+
+    <junction id="e1" type="priority" x="600.00" y="150.00" incLanes="t3_e1_0 t3_e1_1" intLanes=":e1_0_0" shape="600.00,150.00 600.00,143.60 600.00,150.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="n1" type="priority" x="150.00" y="300.00" incLanes="t1_n1_0 t1_n1_1" intLanes=":n1_0_0" shape="150.00,300.00 156.40,300.00 150.00,300.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="n2" type="priority" x="300.00" y="300.00" incLanes="t2_n2_0 t2_n2_1" intLanes=":n2_0_0" shape="300.00,300.00 306.40,300.00 300.00,300.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="n3" type="priority" x="450.00" y="300.00" incLanes="t3_n3_0 t3_n3_1" intLanes=":n3_0_0" shape="450.00,300.00 456.40,300.00 450.00,300.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="s1" type="priority" x="150.00" y="0.00" incLanes="t1_s1_0 t1_s1_1" intLanes=":s1_0_0" shape="150.00,0.00 143.60,0.00 150.00,0.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="s2" type="priority" x="300.00" y="0.00" incLanes="t2_s2_0 t2_s2_1" intLanes=":s2_0_0" shape="300.00,0.00 293.60,0.00 300.00,0.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="s3" type="priority" x="450.00" y="0.00" incLanes="t3_s3_0 t3_s3_1" intLanes=":s3_0_0" shape="450.00,0.00 443.60,0.00 450.00,0.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="t1" type="traffic_light" x="150.00" y="150.00" incLanes="n1_t1_0 n1_t1_1 t2_t1_0 t2_t1_1 s1_t1_0 s1_t1_1 w1_t1_0 w1_t1_1" intLanes=":t1_0_0 :t1_1_0 :t1_1_1 :t1_20_0 :t1_21_0 :t1_5_0 :t1_6_0 :t1_6_1 :t1_22_0 :t1_23_0 :t1_10_0 :t1_11_0 :t1_11_1 :t1_24_0 :t1_25_0 :t1_15_0 :t1_16_0 :t1_16_1 :t1_26_0 :t1_27_0" shape="143.60,160.40 156.40,160.40 156.84,158.18 157.40,157.40 158.18,156.84 159.18,156.51 160.40,156.40 160.40,143.60 158.18,143.16 157.40,142.60 156.84,141.82 156.51,140.82 156.40,139.60 143.60,139.60 143.16,141.82 142.60,142.60 141.82,143.16 140.82,143.49 139.60,143.60 139.60,156.40 141.82,156.84 142.60,157.40 143.16,158.18 143.49,159.18">
+        <request index="0"  response="00000000000000000000" foes="00000000000011000000" cont="0"/>
+        <request index="1"  response="01000000000100000000" foes="01111110000111000000" cont="0"/>
+        <request index="2"  response="01000000000100000000" foes="01111110000111000000" cont="0"/>
+        <request index="3"  response="01000001100100000000" foes="01110001101111000000" cont="1"/>
+        <request index="4"  response="01000001100000000000" foes="01000001100000000000" cont="1"/>
+        <request index="5"  response="00000001100000000000" foes="00000001100000000000" cont="0"/>
+        <request index="6"  response="00000011100000001111" foes="11000011100000001111" cont="0"/>
+        <request index="7"  response="00000011100000001111" foes="11000011100000001111" cont="0"/>
+        <request index="8"  response="00110011100000001110" foes="00110111100000001110" cont="1"/>
+        <request index="9"  response="00110000000000001000" foes="00110000000000001000" cont="1"/>
+        <request index="10" response="00000000000000000000" foes="00110000000000000000" cont="0"/>
+        <request index="11" response="01000000000100000000" foes="01110000000111111000" cont="0"/>
+        <request index="12" response="01000000000100000000" foes="01110000000111111000" cont="0"/>
+        <request index="13" response="01000000000100000110" foes="11110000000111000110" cont="1"/>
+        <request index="14" response="00000000000100000110" foes="00000000000100000110" cont="1"/>
+        <request index="15" response="00000000000000000110" foes="00000000000000000110" cont="0"/>
+        <request index="16" response="00000011110000001110" foes="00000011111100001110" cont="0"/>
+        <request index="17" response="00000011110000001110" foes="00000011111100001110" cont="0"/>
+        <request index="18" response="00000011100011001110" foes="00000011100011011110" cont="1"/>
+        <request index="19" response="00000010000011000000" foes="00000010000011000000" cont="1"/>
+    </junction>
+    <junction id="t2" type="traffic_light" x="300.00" y="150.00" incLanes="n2_t2_0 n2_t2_1 t3_t2_0 t3_t2_1 s2_t2_0 s2_t2_1 t1_t2_0 t1_t2_1" intLanes=":t2_0_0 :t2_1_0 :t2_1_1 :t2_20_0 :t2_21_0 :t2_5_0 :t2_6_0 :t2_6_1 :t2_22_0 :t2_23_0 :t2_10_0 :t2_11_0 :t2_11_1 :t2_24_0 :t2_25_0 :t2_15_0 :t2_16_0 :t2_16_1 :t2_26_0 :t2_27_0" shape="293.60,160.40 306.40,160.40 306.84,158.18 307.40,157.40 308.18,156.84 309.18,156.51 310.40,156.40 310.40,143.60 308.18,143.16 307.40,142.60 306.84,141.82 306.51,140.82 306.40,139.60 293.60,139.60 293.16,141.82 292.60,142.60 291.82,143.16 290.82,143.49 289.60,143.60 289.60,156.40 291.82,156.84 292.60,157.40 293.16,158.18 293.49,159.18">
+        <request index="0"  response="00000000000000000000" foes="00000000000011000000" cont="0"/>
+        <request index="1"  response="01000000000100000000" foes="01111110000111000000" cont="0"/>
+        <request index="2"  response="01000000000100000000" foes="01111110000111000000" cont="0"/>
+        <request index="3"  response="01000001100100000000" foes="01110001101111000000" cont="1"/>
+        <request index="4"  response="01000001100000000000" foes="01000001100000000000" cont="1"/>
+        <request index="5"  response="00000001100000000000" foes="00000001100000000000" cont="0"/>
+        <request index="6"  response="00000011100000001111" foes="11000011100000001111" cont="0"/>
+        <request index="7"  response="00000011100000001111" foes="11000011100000001111" cont="0"/>
+        <request index="8"  response="00110011100000001110" foes="00110111100000001110" cont="1"/>
+        <request index="9"  response="00110000000000001000" foes="00110000000000001000" cont="1"/>
+        <request index="10" response="00000000000000000000" foes="00110000000000000000" cont="0"/>
+        <request index="11" response="01000000000100000000" foes="01110000000111111000" cont="0"/>
+        <request index="12" response="01000000000100000000" foes="01110000000111111000" cont="0"/>
+        <request index="13" response="01000000000100000110" foes="11110000000111000110" cont="1"/>
+        <request index="14" response="00000000000100000110" foes="00000000000100000110" cont="1"/>
+        <request index="15" response="00000000000000000110" foes="00000000000000000110" cont="0"/>
+        <request index="16" response="00000011110000001110" foes="00000011111100001110" cont="0"/>
+        <request index="17" response="00000011110000001110" foes="00000011111100001110" cont="0"/>
+        <request index="18" response="00000011100011001110" foes="00000011100011011110" cont="1"/>
+        <request index="19" response="00000010000011000000" foes="00000010000011000000" cont="1"/>
+    </junction>
+    <junction id="t3" type="traffic_light" x="450.00" y="150.00" incLanes="n3_t3_0 n3_t3_1 e1_t3_0 e1_t3_1 s3_t3_0 s3_t3_1 t2_t3_0 t2_t3_1" intLanes=":t3_0_0 :t3_1_0 :t3_1_1 :t3_20_0 :t3_21_0 :t3_5_0 :t3_6_0 :t3_6_1 :t3_22_0 :t3_23_0 :t3_10_0 :t3_11_0 :t3_11_1 :t3_24_0 :t3_25_0 :t3_15_0 :t3_16_0 :t3_16_1 :t3_26_0 :t3_27_0" shape="443.60,160.40 456.40,160.40 456.84,158.18 457.40,157.40 458.18,156.84 459.18,156.51 460.40,156.40 460.40,143.60 458.18,143.16 457.40,142.60 456.84,141.82 456.51,140.82 456.40,139.60 443.60,139.60 443.16,141.82 442.60,142.60 441.82,143.16 440.82,143.49 439.60,143.60 439.60,156.40 441.82,156.84 442.60,157.40 443.16,158.18 443.49,159.18">
+        <request index="0"  response="00000000000000000000" foes="00000000000011000000" cont="0"/>
+        <request index="1"  response="01000000000100000000" foes="01111110000111000000" cont="0"/>
+        <request index="2"  response="01000000000100000000" foes="01111110000111000000" cont="0"/>
+        <request index="3"  response="01000001100100000000" foes="01110001101111000000" cont="1"/>
+        <request index="4"  response="01000001100000000000" foes="01000001100000000000" cont="1"/>
+        <request index="5"  response="00000001100000000000" foes="00000001100000000000" cont="0"/>
+        <request index="6"  response="00000011100000001111" foes="11000011100000001111" cont="0"/>
+        <request index="7"  response="00000011100000001111" foes="11000011100000001111" cont="0"/>
+        <request index="8"  response="00110011100000001110" foes="00110111100000001110" cont="1"/>
+        <request index="9"  response="00110000000000001000" foes="00110000000000001000" cont="1"/>
+        <request index="10" response="00000000000000000000" foes="00110000000000000000" cont="0"/>
+        <request index="11" response="01000000000100000000" foes="01110000000111111000" cont="0"/>
+        <request index="12" response="01000000000100000000" foes="01110000000111111000" cont="0"/>
+        <request index="13" response="01000000000100000110" foes="11110000000111000110" cont="1"/>
+        <request index="14" response="00000000000100000110" foes="00000000000100000110" cont="1"/>
+        <request index="15" response="00000000000000000110" foes="00000000000000000110" cont="0"/>
+        <request index="16" response="00000011110000001110" foes="00000011111100001110" cont="0"/>
+        <request index="17" response="00000011110000001110" foes="00000011111100001110" cont="0"/>
+        <request index="18" response="00000011100011001110" foes="00000011100011011110" cont="1"/>
+        <request index="19" response="00000010000011000000" foes="00000010000011000000" cont="1"/>
+    </junction>
+    <junction id="w1" type="priority" x="0.00" y="150.00" incLanes="t1_w1_0 t1_w1_1" intLanes=":w1_0_0" shape="0.00,150.00 0.00,156.40 0.00,150.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+
+    <junction id=":t1_20_0" type="internal" x="149.11" y="155.44" incLanes=":t1_3_0 s1_t1_0 s1_t1_1" intLanes=":t1_6_0 :t1_6_1 :t1_8_0 :t1_9_0 :t1_10_0 :t1_11_0 :t1_11_1 :t1_16_0 :t1_16_1 :t1_18_0"/>
+    <junction id=":t1_21_0" type="internal" x="149.20" y="159.20" incLanes=":t1_4_0 s1_t1_0 s1_t1_1 t2_t1_0 w1_t1_1" intLanes=":t1_5_0 :t1_11_0 :t1_11_1 :t1_18_0"/>
+    <junction id=":t1_22_0" type="internal" x="155.44" y="150.89" incLanes=":t1_8_0 w1_t1_0 w1_t1_1" intLanes=":t1_1_0 :t1_1_1 :t1_3_0 :t1_11_0 :t1_11_1 :t1_13_0 :t1_14_0 :t1_15_0 :t1_16_0 :t1_16_1"/>
+    <junction id=":t1_23_0" type="internal" x="159.20" y="150.80" incLanes=":t1_9_0 n1_t1_1 s1_t1_0 w1_t1_0 w1_t1_1" intLanes=":t1_3_0 :t1_10_0 :t1_16_0 :t1_16_1"/>
+    <junction id=":t1_24_0" type="internal" x="150.89" y="144.56" incLanes=":t1_13_0 n1_t1_0 n1_t1_1" intLanes=":t1_0_0 :t1_1_0 :t1_1_1 :t1_6_0 :t1_6_1 :t1_8_0 :t1_16_0 :t1_16_1 :t1_18_0 :t1_19_0"/>
+    <junction id=":t1_25_0" type="internal" x="150.80" y="140.80" incLanes=":t1_14_0 n1_t1_0 n1_t1_1 t2_t1_1 w1_t1_0" intLanes=":t1_1_0 :t1_1_1 :t1_8_0 :t1_15_0"/>
+    <junction id=":t1_26_0" type="internal" x="144.56" y="149.11" incLanes=":t1_18_0 t2_t1_0 t2_t1_1" intLanes=":t1_1_0 :t1_1_1 :t1_3_0 :t1_4_0 :t1_5_0 :t1_6_0 :t1_6_1 :t1_11_0 :t1_11_1 :t1_13_0"/>
+    <junction id=":t1_27_0" type="internal" x="140.80" y="149.20" incLanes=":t1_19_0 n1_t1_0 s1_t1_1 t2_t1_0 t2_t1_1" intLanes=":t1_0_0 :t1_6_0 :t1_6_1 :t1_13_0"/>
+    <junction id=":t2_20_0" type="internal" x="299.11" y="155.44" incLanes=":t2_3_0 s2_t2_0 s2_t2_1" intLanes=":t2_6_0 :t2_6_1 :t2_8_0 :t2_9_0 :t2_10_0 :t2_11_0 :t2_11_1 :t2_16_0 :t2_16_1 :t2_18_0"/>
+    <junction id=":t2_21_0" type="internal" x="299.20" y="159.20" incLanes=":t2_4_0 s2_t2_0 s2_t2_1 t1_t2_1 t3_t2_0" intLanes=":t2_5_0 :t2_11_0 :t2_11_1 :t2_18_0"/>
+    <junction id=":t2_22_0" type="internal" x="305.44" y="150.89" incLanes=":t2_8_0 t1_t2_0 t1_t2_1" intLanes=":t2_1_0 :t2_1_1 :t2_3_0 :t2_11_0 :t2_11_1 :t2_13_0 :t2_14_0 :t2_15_0 :t2_16_0 :t2_16_1"/>
+    <junction id=":t2_23_0" type="internal" x="309.20" y="150.80" incLanes=":t2_9_0 n2_t2_1 s2_t2_0 t1_t2_0 t1_t2_1" intLanes=":t2_3_0 :t2_10_0 :t2_16_0 :t2_16_1"/>
+    <junction id=":t2_24_0" type="internal" x="300.89" y="144.56" incLanes=":t2_13_0 n2_t2_0 n2_t2_1" intLanes=":t2_0_0 :t2_1_0 :t2_1_1 :t2_6_0 :t2_6_1 :t2_8_0 :t2_16_0 :t2_16_1 :t2_18_0 :t2_19_0"/>
+    <junction id=":t2_25_0" type="internal" x="300.80" y="140.80" incLanes=":t2_14_0 n2_t2_0 n2_t2_1 t1_t2_0 t3_t2_1" intLanes=":t2_1_0 :t2_1_1 :t2_8_0 :t2_15_0"/>
+    <junction id=":t2_26_0" type="internal" x="294.56" y="149.11" incLanes=":t2_18_0 t3_t2_0 t3_t2_1" intLanes=":t2_1_0 :t2_1_1 :t2_3_0 :t2_4_0 :t2_5_0 :t2_6_0 :t2_6_1 :t2_11_0 :t2_11_1 :t2_13_0"/>
+    <junction id=":t2_27_0" type="internal" x="290.80" y="149.20" incLanes=":t2_19_0 n2_t2_0 s2_t2_1 t3_t2_0 t3_t2_1" intLanes=":t2_0_0 :t2_6_0 :t2_6_1 :t2_13_0"/>
+    <junction id=":t3_20_0" type="internal" x="449.11" y="155.44" incLanes=":t3_3_0 s3_t3_0 s3_t3_1" intLanes=":t3_6_0 :t3_6_1 :t3_8_0 :t3_9_0 :t3_10_0 :t3_11_0 :t3_11_1 :t3_16_0 :t3_16_1 :t3_18_0"/>
+    <junction id=":t3_21_0" type="internal" x="449.20" y="159.20" incLanes=":t3_4_0 e1_t3_0 s3_t3_0 s3_t3_1 t2_t3_1" intLanes=":t3_5_0 :t3_11_0 :t3_11_1 :t3_18_0"/>
+    <junction id=":t3_22_0" type="internal" x="455.44" y="150.89" incLanes=":t3_8_0 t2_t3_0 t2_t3_1" intLanes=":t3_1_0 :t3_1_1 :t3_3_0 :t3_11_0 :t3_11_1 :t3_13_0 :t3_14_0 :t3_15_0 :t3_16_0 :t3_16_1"/>
+    <junction id=":t3_23_0" type="internal" x="459.20" y="150.80" incLanes=":t3_9_0 n3_t3_1 s3_t3_0 t2_t3_0 t2_t3_1" intLanes=":t3_3_0 :t3_10_0 :t3_16_0 :t3_16_1"/>
+    <junction id=":t3_24_0" type="internal" x="450.89" y="144.56" incLanes=":t3_13_0 n3_t3_0 n3_t3_1" intLanes=":t3_0_0 :t3_1_0 :t3_1_1 :t3_6_0 :t3_6_1 :t3_8_0 :t3_16_0 :t3_16_1 :t3_18_0 :t3_19_0"/>
+    <junction id=":t3_25_0" type="internal" x="450.80" y="140.80" incLanes=":t3_14_0 e1_t3_1 n3_t3_0 n3_t3_1 t2_t3_0" intLanes=":t3_1_0 :t3_1_1 :t3_8_0 :t3_15_0"/>
+    <junction id=":t3_26_0" type="internal" x="444.56" y="149.11" incLanes=":t3_18_0 e1_t3_0 e1_t3_1" intLanes=":t3_1_0 :t3_1_1 :t3_3_0 :t3_4_0 :t3_5_0 :t3_6_0 :t3_6_1 :t3_11_0 :t3_11_1 :t3_13_0"/>
+    <junction id=":t3_27_0" type="internal" x="440.80" y="149.20" incLanes=":t3_19_0 e1_t3_0 e1_t3_1 n3_t3_0 s3_t3_1" intLanes=":t3_0_0 :t3_6_0 :t3_6_1 :t3_13_0"/>
+
+    <connection from="e1_t3" to="t3_n3" fromLane="0" toLane="0" via=":t3_5_0" tl="t3" linkIndex="5" dir="r" state="o"/>
+    <connection from="e1_t3" to="t3_t2" fromLane="0" toLane="0" via=":t3_6_0" tl="t3" linkIndex="6" dir="s" state="o"/>
+    <connection from="e1_t3" to="t3_t2" fromLane="1" toLane="1" via=":t3_6_1" tl="t3" linkIndex="7" dir="s" state="o"/>
+    <connection from="e1_t3" to="t3_s3" fromLane="1" toLane="1" via=":t3_8_0" tl="t3" linkIndex="8" dir="l" state="o"/>
+    <connection from="e1_t3" to="t3_e1" fromLane="1" toLane="1" via=":t3_9_0" tl="t3" linkIndex="9" dir="t" state="o"/>
+    <connection from="n1_t1" to="t1_w1" fromLane="0" toLane="0" via=":t1_0_0" tl="t1" linkIndex="0" dir="r" state="O"/>
+    <connection from="n1_t1" to="t1_s1" fromLane="0" toLane="0" via=":t1_1_0" tl="t1" linkIndex="1" dir="s" state="O"/>
+    <connection from="n1_t1" to="t1_s1" fromLane="1" toLane="1" via=":t1_1_1" tl="t1" linkIndex="2" dir="s" state="O"/>
+    <connection from="n1_t1" to="t1_t2" fromLane="1" toLane="1" via=":t1_3_0" tl="t1" linkIndex="3" dir="l" state="o"/>
+    <connection from="n1_t1" to="t1_n1" fromLane="1" toLane="1" via=":t1_4_0" tl="t1" linkIndex="4" dir="t" state="o"/>
+    <connection from="n2_t2" to="t2_t1" fromLane="0" toLane="0" via=":t2_0_0" tl="t2" linkIndex="0" dir="r" state="O"/>
+    <connection from="n2_t2" to="t2_s2" fromLane="0" toLane="0" via=":t2_1_0" tl="t2" linkIndex="1" dir="s" state="O"/>
+    <connection from="n2_t2" to="t2_s2" fromLane="1" toLane="1" via=":t2_1_1" tl="t2" linkIndex="2" dir="s" state="O"/>
+    <connection from="n2_t2" to="t2_t3" fromLane="1" toLane="1" via=":t2_3_0" tl="t2" linkIndex="3" dir="l" state="o"/>
+    <connection from="n2_t2" to="t2_n2" fromLane="1" toLane="1" via=":t2_4_0" tl="t2" linkIndex="4" dir="t" state="o"/>
+    <connection from="n3_t3" to="t3_t2" fromLane="0" toLane="0" via=":t3_0_0" tl="t3" linkIndex="0" dir="r" state="O"/>
+    <connection from="n3_t3" to="t3_s3" fromLane="0" toLane="0" via=":t3_1_0" tl="t3" linkIndex="1" dir="s" state="O"/>
+    <connection from="n3_t3" to="t3_s3" fromLane="1" toLane="1" via=":t3_1_1" tl="t3" linkIndex="2" dir="s" state="O"/>
+    <connection from="n3_t3" to="t3_e1" fromLane="1" toLane="1" via=":t3_3_0" tl="t3" linkIndex="3" dir="l" state="o"/>
+    <connection from="n3_t3" to="t3_n3" fromLane="1" toLane="1" via=":t3_4_0" tl="t3" linkIndex="4" dir="t" state="o"/>
+    <connection from="s1_t1" to="t1_t2" fromLane="0" toLane="0" via=":t1_10_0" tl="t1" linkIndex="10" dir="r" state="O"/>
+    <connection from="s1_t1" to="t1_n1" fromLane="0" toLane="0" via=":t1_11_0" tl="t1" linkIndex="11" dir="s" state="O"/>
+    <connection from="s1_t1" to="t1_n1" fromLane="1" toLane="1" via=":t1_11_1" tl="t1" linkIndex="12" dir="s" state="O"/>
+    <connection from="s1_t1" to="t1_w1" fromLane="1" toLane="1" via=":t1_13_0" tl="t1" linkIndex="13" dir="l" state="o"/>
+    <connection from="s1_t1" to="t1_s1" fromLane="1" toLane="1" via=":t1_14_0" tl="t1" linkIndex="14" dir="t" state="o"/>
+    <connection from="s2_t2" to="t2_t3" fromLane="0" toLane="0" via=":t2_10_0" tl="t2" linkIndex="10" dir="r" state="O"/>
+    <connection from="s2_t2" to="t2_n2" fromLane="0" toLane="0" via=":t2_11_0" tl="t2" linkIndex="11" dir="s" state="O"/>
+    <connection from="s2_t2" to="t2_n2" fromLane="1" toLane="1" via=":t2_11_1" tl="t2" linkIndex="12" dir="s" state="O"/>
+    <connection from="s2_t2" to="t2_t1" fromLane="1" toLane="1" via=":t2_13_0" tl="t2" linkIndex="13" dir="l" state="o"/>
+    <connection from="s2_t2" to="t2_s2" fromLane="1" toLane="1" via=":t2_14_0" tl="t2" linkIndex="14" dir="t" state="o"/>
+    <connection from="s3_t3" to="t3_e1" fromLane="0" toLane="0" via=":t3_10_0" tl="t3" linkIndex="10" dir="r" state="O"/>
+    <connection from="s3_t3" to="t3_n3" fromLane="0" toLane="0" via=":t3_11_0" tl="t3" linkIndex="11" dir="s" state="O"/>
+    <connection from="s3_t3" to="t3_n3" fromLane="1" toLane="1" via=":t3_11_1" tl="t3" linkIndex="12" dir="s" state="O"/>
+    <connection from="s3_t3" to="t3_t2" fromLane="1" toLane="1" via=":t3_13_0" tl="t3" linkIndex="13" dir="l" state="o"/>
+    <connection from="s3_t3" to="t3_s3" fromLane="1" toLane="1" via=":t3_14_0" tl="t3" linkIndex="14" dir="t" state="o"/>
+    <connection from="t1_n1" to="n1_t1" fromLane="1" toLane="1" via=":n1_0_0" dir="t" state="M"/>
+    <connection from="t1_s1" to="s1_t1" fromLane="1" toLane="1" via=":s1_0_0" dir="t" state="M"/>
+    <connection from="t1_t2" to="t2_s2" fromLane="0" toLane="0" via=":t2_15_0" tl="t2" linkIndex="15" dir="r" state="o"/>
+    <connection from="t1_t2" to="t2_t3" fromLane="0" toLane="0" via=":t2_16_0" tl="t2" linkIndex="16" dir="s" state="o"/>
+    <connection from="t1_t2" to="t2_t3" fromLane="1" toLane="1" via=":t2_16_1" tl="t2" linkIndex="17" dir="s" state="o"/>
+    <connection from="t1_t2" to="t2_n2" fromLane="1" toLane="1" via=":t2_18_0" tl="t2" linkIndex="18" dir="l" state="o"/>
+    <connection from="t1_t2" to="t2_t1" fromLane="1" toLane="1" via=":t2_19_0" tl="t2" linkIndex="19" dir="t" state="o"/>
+    <connection from="t1_w1" to="w1_t1" fromLane="1" toLane="1" via=":w1_0_0" dir="t" state="M"/>
+    <connection from="t2_n2" to="n2_t2" fromLane="1" toLane="1" via=":n2_0_0" dir="t" state="M"/>
+    <connection from="t2_s2" to="s2_t2" fromLane="1" toLane="1" via=":s2_0_0" dir="t" state="M"/>
+    <connection from="t2_t1" to="t1_n1" fromLane="0" toLane="0" via=":t1_5_0" tl="t1" linkIndex="5" dir="r" state="o"/>
+    <connection from="t2_t1" to="t1_w1" fromLane="0" toLane="0" via=":t1_6_0" tl="t1" linkIndex="6" dir="s" state="o"/>
+    <connection from="t2_t1" to="t1_w1" fromLane="1" toLane="1" via=":t1_6_1" tl="t1" linkIndex="7" dir="s" state="o"/>
+    <connection from="t2_t1" to="t1_s1" fromLane="1" toLane="1" via=":t1_8_0" tl="t1" linkIndex="8" dir="l" state="o"/>
+    <connection from="t2_t1" to="t1_t2" fromLane="1" toLane="1" via=":t1_9_0" tl="t1" linkIndex="9" dir="t" state="o"/>
+    <connection from="t2_t3" to="t3_s3" fromLane="0" toLane="0" via=":t3_15_0" tl="t3" linkIndex="15" dir="r" state="o"/>
+    <connection from="t2_t3" to="t3_e1" fromLane="0" toLane="0" via=":t3_16_0" tl="t3" linkIndex="16" dir="s" state="o"/>
+    <connection from="t2_t3" to="t3_e1" fromLane="1" toLane="1" via=":t3_16_1" tl="t3" linkIndex="17" dir="s" state="o"/>
+    <connection from="t2_t3" to="t3_n3" fromLane="1" toLane="1" via=":t3_18_0" tl="t3" linkIndex="18" dir="l" state="o"/>
+    <connection from="t2_t3" to="t3_t2" fromLane="1" toLane="1" via=":t3_19_0" tl="t3" linkIndex="19" dir="t" state="o"/>
+    <connection from="t3_e1" to="e1_t3" fromLane="1" toLane="1" via=":e1_0_0" dir="t" state="M"/>
+    <connection from="t3_n3" to="n3_t3" fromLane="1" toLane="1" via=":n3_0_0" dir="t" state="M"/>
+    <connection from="t3_s3" to="s3_t3" fromLane="1" toLane="1" via=":s3_0_0" dir="t" state="M"/>
+    <connection from="t3_t2" to="t2_n2" fromLane="0" toLane="0" via=":t2_5_0" tl="t2" linkIndex="5" dir="r" state="o"/>
+    <connection from="t3_t2" to="t2_t1" fromLane="0" toLane="0" via=":t2_6_0" tl="t2" linkIndex="6" dir="s" state="o"/>
+    <connection from="t3_t2" to="t2_t1" fromLane="1" toLane="1" via=":t2_6_1" tl="t2" linkIndex="7" dir="s" state="o"/>
+    <connection from="t3_t2" to="t2_s2" fromLane="1" toLane="1" via=":t2_8_0" tl="t2" linkIndex="8" dir="l" state="o"/>
+    <connection from="t3_t2" to="t2_t3" fromLane="1" toLane="1" via=":t2_9_0" tl="t2" linkIndex="9" dir="t" state="o"/>
+    <connection from="w1_t1" to="t1_s1" fromLane="0" toLane="0" via=":t1_15_0" tl="t1" linkIndex="15" dir="r" state="o"/>
+    <connection from="w1_t1" to="t1_t2" fromLane="0" toLane="0" via=":t1_16_0" tl="t1" linkIndex="16" dir="s" state="o"/>
+    <connection from="w1_t1" to="t1_t2" fromLane="1" toLane="1" via=":t1_16_1" tl="t1" linkIndex="17" dir="s" state="o"/>
+    <connection from="w1_t1" to="t1_n1" fromLane="1" toLane="1" via=":t1_18_0" tl="t1" linkIndex="18" dir="l" state="o"/>
+    <connection from="w1_t1" to="t1_w1" fromLane="1" toLane="1" via=":t1_19_0" tl="t1" linkIndex="19" dir="t" state="o"/>
+
+    <connection from=":e1_0" to="e1_t3" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":n1_0" to="n1_t1" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":n2_0" to="n2_t2" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":n3_0" to="n3_t3" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":s1_0" to="s1_t1" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":s2_0" to="s2_t2" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":s3_0" to="s3_t3" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":t1_0" to="t1_w1" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":t1_1" to="t1_s1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":t1_1" to="t1_s1" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":t1_3" to="t1_t2" fromLane="0" toLane="1" via=":t1_20_0" dir="l" state="m"/>
+    <connection from=":t1_20" to="t1_t2" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":t1_4" to="t1_n1" fromLane="0" toLane="1" via=":t1_21_0" dir="t" state="m"/>
+    <connection from=":t1_21" to="t1_n1" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":t1_5" to="t1_n1" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":t1_6" to="t1_w1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":t1_6" to="t1_w1" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":t1_8" to="t1_s1" fromLane="0" toLane="1" via=":t1_22_0" dir="l" state="m"/>
+    <connection from=":t1_22" to="t1_s1" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":t1_9" to="t1_t2" fromLane="0" toLane="1" via=":t1_23_0" dir="t" state="m"/>
+    <connection from=":t1_23" to="t1_t2" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":t1_10" to="t1_t2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":t1_11" to="t1_n1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":t1_11" to="t1_n1" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":t1_13" to="t1_w1" fromLane="0" toLane="1" via=":t1_24_0" dir="l" state="m"/>
+    <connection from=":t1_24" to="t1_w1" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":t1_14" to="t1_s1" fromLane="0" toLane="1" via=":t1_25_0" dir="t" state="m"/>
+    <connection from=":t1_25" to="t1_s1" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":t1_15" to="t1_s1" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":t1_16" to="t1_t2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":t1_16" to="t1_t2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":t1_18" to="t1_n1" fromLane="0" toLane="1" via=":t1_26_0" dir="l" state="m"/>
+    <connection from=":t1_26" to="t1_n1" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":t1_19" to="t1_w1" fromLane="0" toLane="1" via=":t1_27_0" dir="t" state="m"/>
+    <connection from=":t1_27" to="t1_w1" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":t2_0" to="t2_t1" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":t2_1" to="t2_s2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":t2_1" to="t2_s2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":t2_3" to="t2_t3" fromLane="0" toLane="1" via=":t2_20_0" dir="l" state="m"/>
+    <connection from=":t2_20" to="t2_t3" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":t2_4" to="t2_n2" fromLane="0" toLane="1" via=":t2_21_0" dir="t" state="m"/>
+    <connection from=":t2_21" to="t2_n2" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":t2_5" to="t2_n2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":t2_6" to="t2_t1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":t2_6" to="t2_t1" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":t2_8" to="t2_s2" fromLane="0" toLane="1" via=":t2_22_0" dir="l" state="m"/>
+    <connection from=":t2_22" to="t2_s2" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":t2_9" to="t2_t3" fromLane="0" toLane="1" via=":t2_23_0" dir="t" state="m"/>
+    <connection from=":t2_23" to="t2_t3" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":t2_10" to="t2_t3" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":t2_11" to="t2_n2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":t2_11" to="t2_n2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":t2_13" to="t2_t1" fromLane="0" toLane="1" via=":t2_24_0" dir="l" state="m"/>
+    <connection from=":t2_24" to="t2_t1" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":t2_14" to="t2_s2" fromLane="0" toLane="1" via=":t2_25_0" dir="t" state="m"/>
+    <connection from=":t2_25" to="t2_s2" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":t2_15" to="t2_s2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":t2_16" to="t2_t3" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":t2_16" to="t2_t3" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":t2_18" to="t2_n2" fromLane="0" toLane="1" via=":t2_26_0" dir="l" state="m"/>
+    <connection from=":t2_26" to="t2_n2" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":t2_19" to="t2_t1" fromLane="0" toLane="1" via=":t2_27_0" dir="t" state="m"/>
+    <connection from=":t2_27" to="t2_t1" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":t3_0" to="t3_t2" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":t3_1" to="t3_s3" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":t3_1" to="t3_s3" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":t3_3" to="t3_e1" fromLane="0" toLane="1" via=":t3_20_0" dir="l" state="m"/>
+    <connection from=":t3_20" to="t3_e1" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":t3_4" to="t3_n3" fromLane="0" toLane="1" via=":t3_21_0" dir="t" state="m"/>
+    <connection from=":t3_21" to="t3_n3" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":t3_5" to="t3_n3" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":t3_6" to="t3_t2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":t3_6" to="t3_t2" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":t3_8" to="t3_s3" fromLane="0" toLane="1" via=":t3_22_0" dir="l" state="m"/>
+    <connection from=":t3_22" to="t3_s3" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":t3_9" to="t3_e1" fromLane="0" toLane="1" via=":t3_23_0" dir="t" state="m"/>
+    <connection from=":t3_23" to="t3_e1" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":t3_10" to="t3_e1" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":t3_11" to="t3_n3" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":t3_11" to="t3_n3" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":t3_13" to="t3_t2" fromLane="0" toLane="1" via=":t3_24_0" dir="l" state="m"/>
+    <connection from=":t3_24" to="t3_t2" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":t3_14" to="t3_s3" fromLane="0" toLane="1" via=":t3_25_0" dir="t" state="m"/>
+    <connection from=":t3_25" to="t3_s3" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":t3_15" to="t3_s3" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":t3_16" to="t3_e1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":t3_16" to="t3_e1" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":t3_18" to="t3_n3" fromLane="0" toLane="1" via=":t3_26_0" dir="l" state="m"/>
+    <connection from=":t3_26" to="t3_n3" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":t3_19" to="t3_t2" fromLane="0" toLane="1" via=":t3_27_0" dir="t" state="m"/>
+    <connection from=":t3_27" to="t3_t2" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":w1_0" to="w1_t1" fromLane="0" toLane="1" dir="t" state="M"/>
+
+</net>
