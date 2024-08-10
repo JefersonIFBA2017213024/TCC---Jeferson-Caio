@@ -1,0 +1,16 @@
+// Processo de Decisão de Markov (MDP) - Semáforos Inteligentes
+digraph {
+	S1 [label="Estado 1"]
+	S2 [label="Estado 2"]
+	S3 [label="Estado 3"]
+	S1 -> S2 [label="A1, P: 0.8, R: +10"]
+	S2 -> S3 [label="A2, P: 0.6, R: +5"]
+	S3 -> S1 [label="A3, P: 0.7, R: -10"]
+	label="Um MDP é definido formalmente como uma tupla (S, A, P, R, γ), onde:
+S: Conjunto de Estados
+A: Conjunto de Ações
+P: Função de Transição de Estados
+R: Função de Recompensa
+γ: Fator de Desconto"
+	labelloc=t
+}

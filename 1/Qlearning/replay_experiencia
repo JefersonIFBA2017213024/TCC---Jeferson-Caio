@@ -1,0 +1,10 @@
+digraph {
+	A [label="Armazenar transição
+(estado, ação, recompensa, próximo estado)"]
+	B [label="Amostrar transições
+aleatórias da memória"]
+	C [label="Atualizar rede neural
+usando amostras"]
+	A -> B
+	B -> C
+}

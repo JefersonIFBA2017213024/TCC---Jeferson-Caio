@@ -1,0 +1,33 @@
+<additional>
+  <!-- Detectores para w_t -->
+  <inductionLoop id="detector_w_t_0" lane="w_t_0" pos="50" freq="60" file="detector_output_w_t_0.xml"/>
+  <inductionLoop id="detector_w_t_1" lane="w_t_1" pos="50" freq="60" file="detector_output_w_t_1.xml"/>
+
+  <!-- Detectores para t_w -->
+  <inductionLoop id="detector_t_w_0" lane="t_w_0" pos="50" freq="60" file="detector_output_t_w_0.xml"/>
+  <inductionLoop id="detector_t_w_1" lane="t_w_1" pos="50" freq="60" file="detector_output_t_w_1.xml"/>
+
+  <!-- Detectores para s_t -->
+  <inductionLoop id="detector_s_t_0" lane="s_t_0" pos="50" freq="60" file="detector_output_s_t_0.xml"/>
+  <inductionLoop id="detector_s_t_1" lane="s_t_1" pos="50" freq="60" file="detector_output_s_t_1.xml"/>
+
+  <!-- Detectores para t_s -->
+  <inductionLoop id="detector_t_s_0" lane="t_s_0" pos="50" freq="60" file="detector_output_t_s_0.xml"/>
+  <inductionLoop id="detector_t_s_1" lane="t_s_1" pos="50" freq="60" file="detector_output_t_s_1.xml"/>
+
+  <!-- Detectores para e_t -->
+  <inductionLoop id="detector_e_t_0" lane="e_t_0" pos="50" freq="60" file="detector_output_e_t_0.xml"/>
+  <inductionLoop id="detector_e_t_1" lane="e_t_1" pos="50" freq="60" file="detector_output_e_t_1.xml"/>
+
+  <!-- Detectores para t_e -->
+  <inductionLoop id="detector_t_e_0" lane="t_e_0" pos="50" freq="60" file="detector_output_t_e_0.xml"/>
+  <inductionLoop id="detector_t_e_1" lane="t_e_1" pos="50" freq="60" file="detector_output_t_e_1.xml"/>
+
+  <!-- Detectores para n_t -->
+  <inductionLoop id="detector_n_t_0" lane="n_t_0" pos="50" freq="60" file="detector_output_n_t_0.xml"/>
+  <inductionLoop id="detector_n_t_1" lane="n_t_1" pos="50" freq="60" file="detector_output_n_t_1.xml"/>
+
+  <!-- Detectores para t_n -->
+  <inductionLoop id="detector_t_n_0" lane="t_n_0" pos="50" freq="60" file="detector_output_t_n_0.xml"/>
+  <inductionLoop id="detector_t_n_1" lane="t_n_1" pos="50" freq="60" file="detector_output_t_n_1.xml"/>
+</additional>
